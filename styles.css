@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+
+.Hometown-Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background-image: url("/Images/Background-main.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+#Hometown-Title{
+    margin-bottom: 5px ;
+    background-color: #7AB6DF;
+    color:whitesmoke;
+    padding: 0 10px;
+}
+#Hometown-Desc{
+    width: 350px;
+    background-color: #7B98BB;
+    color: whitesmoke;
+    margin-top: 0;
+}
+.Hometown-Activities{
+    height: 350px;
+    background-color:white;
+}
+#Activites-Title{
+    margin: 0;
+    padding: 10px;
+}
+.Activities-Main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Tourist-Spot{
+    padding: 20px;
+    width: 32%;
+    
+}
+.Tourist-Spot-Img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.Footer{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.Guide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+}
+#MyImg{
+    width: 200px;
+    height: 250px;
+}
+.Guide-text{
+    padding: 10px;
+}
+.Guide-Box{
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color:  #7AB6DF;
+    border-bottom: 7px solid black;
+}
+
